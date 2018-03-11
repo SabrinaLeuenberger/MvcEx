@@ -26,6 +26,7 @@ public class GuiDefiner {
 		hBox.getChildren().add(enterWebAddress);
 		hBox.getChildren().add(port);
 		hBox.getChildren().add(enterPort);
+		connect.setDisable(true);
 		hBox.getChildren().add(connect);
 
 		Scene scene = new Scene(hBox);
